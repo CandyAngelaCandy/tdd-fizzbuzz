@@ -26,4 +26,9 @@ class FizzBuzzTest {
         assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(15),"FizzBuzz");
     }
 
+    @Test
+    void should_return_FizzWhizz_if_number_is_divisible_by_3_and_7(){
+        assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(21),"FizzWhizz");
+    }
+
 }
