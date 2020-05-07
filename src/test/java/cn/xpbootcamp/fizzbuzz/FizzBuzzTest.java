@@ -21,4 +21,9 @@ class FizzBuzzTest {
         assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(7),"Whizz");
     }
 
+    @Test
+    void should_return_FizzBuzz_if_number_is_divisible_by_3_and_5(){
+        assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(15),"FizzBuzz");
+    }
+
 }
