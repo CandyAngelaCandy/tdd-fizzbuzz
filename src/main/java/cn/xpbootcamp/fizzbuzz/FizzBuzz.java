@@ -3,7 +3,9 @@ package cn.xpbootcamp.fizzbuzz;
 public class FizzBuzz {
 
     public String getNumberToFizzBuzzResult(int number) {
-        if (Integer.toString(number).contains("5") && number % 7 == 0) {
+        if (Integer.toString(number).contains("7") && number % 3 == 0) {
+            return "Fizz";
+        } if (Integer.toString(number).contains("5") && number % 7 == 0) {
             return "BuzzWhizz";
         } else if (Integer.toString(number).contains("5") && number % 5 == 0){
             return "Buzz";
