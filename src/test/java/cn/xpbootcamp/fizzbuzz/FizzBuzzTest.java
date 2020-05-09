@@ -70,4 +70,9 @@ class FizzBuzzTest {
         assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(105), "BuzzWhizz");
     }
 
+    @Test
+    void should_return_Fizz_when_count_given_number_contains_7_and_is_divisible_by_3_and_5() {
+        assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(75), "Fizz");
+    }
+
 }
