@@ -55,4 +55,9 @@ class FizzBuzzTest {
         assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(30), "Fizz");
     }
 
+    @Test
+    void should_return_Buzz_when_count_given_number_contains_5_and_is_divisible_by_3() {
+        assertEquals(new FizzBuzz().getNumberToFizzBuzzResult(15), "Buzz");
+    }
+
 }
