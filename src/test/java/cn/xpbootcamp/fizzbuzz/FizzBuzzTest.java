@@ -17,4 +17,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("Fizz", fizzBuzz.sayNumber(3));
     }
+
+    @Test
+    void should_return_Buzz_when_say_5_given_the_number_is_divisible_by_5() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("Buzz", fizzBuzz.sayNumber(5));
+    }
 }
