@@ -1,7 +1,10 @@
 package cn.xpbootcamp.fizzbuzz;
 
 public class FizzBuzz {
-    public int sayNumber(int number) {
-        return 2;
+    public String sayNumber(int number) {
+        if (number % 3 ==  0) {
+            return "Fizz";
+        }
+        return "2";
     }
 }

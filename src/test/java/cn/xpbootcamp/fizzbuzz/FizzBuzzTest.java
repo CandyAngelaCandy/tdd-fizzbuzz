@@ -11,4 +11,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals(2, fizzBuzz.sayNumber(2));
     }
+
+    @Test
+    void should_return_Fizz_when_say_3_given_the_number_is_divisible_by_3() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("Fizz", fizzBuzz.sayNumber(3));
+    }
 }
