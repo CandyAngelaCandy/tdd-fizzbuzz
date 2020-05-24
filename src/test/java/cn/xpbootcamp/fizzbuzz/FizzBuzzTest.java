@@ -9,7 +9,7 @@ public class FizzBuzzTest {
     @Test
     void should_return_2_when_say_2_given_the_number_is_not_divisible_by_3_or_5_or_7() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals(2, fizzBuzz.sayNumber(2));
+        assertEquals("2", fizzBuzz.sayNumber(2));
     }
 
     @Test
@@ -28,5 +28,11 @@ public class FizzBuzzTest {
     void should_return_Whizz_when_say_7_given_the_number_is_divisible_by_7() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("Whizz", fizzBuzz.sayNumber(7));
+    }
+
+    @Test
+    void should_return_FizzBuzz_when_say_15_given_the_number_is_divisible_by_3_and_5() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("FizzBuzz", fizzBuzz.sayNumber(15));
     }
 }
