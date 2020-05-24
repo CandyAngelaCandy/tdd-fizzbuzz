@@ -10,7 +10,7 @@ public class FizzBuzz {
             result += "Buzz";
         }
         if (number % 7 == 0) {
-            return "Whizz";
+            result += "Whizz";
         }
         if (result.equals("")) {
             result = String.valueOf(number);

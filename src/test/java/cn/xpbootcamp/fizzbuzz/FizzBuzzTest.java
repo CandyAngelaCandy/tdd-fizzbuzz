@@ -35,4 +35,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals("FizzBuzz", fizzBuzz.sayNumber(15));
     }
+
+    @Test
+    void should_return_FizzWhizz_when_say_21_given_the_number_is_divisible_by_3_and_7() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("FizzWhizz", fizzBuzz.sayNumber(21));
+    }
 }
