@@ -1,0 +1,8 @@
+- Given 所报数字均不是3,5和7的倍数, When 学生报数，Then 学生要说该数字。
+- Given 所报数字是3的倍数, When 学生报数，Then 学生要说Fizz。
+- Given 所报数字是5的倍数, When 学生报数，Then 学生要说Buzz。
+- Given 所报数字是7的倍数, When 学生报数，Then 学生要说Whizz。
+- Given 所报数字是3和5的倍数, When 学生报数，Then 学生要说FizzBuzz。
+- Given 所报数字是3和7的倍数, When 学生报数，Then 学生要说FizzWhizz。
+- Given 所报数字是5和7的倍数, When 学生报数，Then 学生要说BuzzWhizz。
+- Given 所报数字是3,5和7的倍数, When 学生报数，Then 学生要说FizzBuzzWhizz。
